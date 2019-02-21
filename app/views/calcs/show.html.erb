@@ -1,0 +1,12 @@
+<h1>計算アプリ</h1>
+<h2>
+  <% if @ope == "addition" %>
+    <%= @value1 + @value2 %>
+  <% elsif @ope == "subtraction" %>
+    <%= @value1 - @value2 %>
+  <% elsif @ope == "multiplication" %>
+    <%= @value1 * @value2 %>
+  <% elsif @ope == "division" %>
+    <%= @value1 / @value2 %>
+  <% end %>
+</h2>
